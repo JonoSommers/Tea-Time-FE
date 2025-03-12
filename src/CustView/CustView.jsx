@@ -40,7 +40,7 @@ function CustView() {
                         <p>Address: {cust.attributes.address}</p>
                         <p>Subscription(s): 
                             {
-                                cust.attributes.subscriptions.count > 0
+                                cust.attributes.subscriptions.length > 0
                                 ? cust.attributes.subscriptions.map(subscription => subscription.name).join(', ')
                                 : ' None'
                             }
