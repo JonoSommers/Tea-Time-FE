@@ -21,8 +21,18 @@ function Home() {
     return (
         <section>
             <header>
-                <h1>Tea Time</h1>
+                <button className="custData">Customer Data</button>
+                <h1>TEA TIME</h1>
+                <button className="teaData">Tea Data</button>
             </header>
+            <section className="subs">
+                {subs.map(sub => (
+                    <div key={sub.id} className="subContainer">
+                        <h3>{sub.attributes.name}</h3>
+                        <img src={sub.attributes.img} alt={`Glass of ${sub.attributes.name}`} />
+                    </div>
+                ))}
+            </section>
         </section>
     )
 }
