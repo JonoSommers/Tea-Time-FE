@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Home.css'
+import DetailView from '../DetailView/DetailView'
 
 function Home() {
     const [subs, setSubs] = useState([])
@@ -33,6 +34,7 @@ function Home() {
                     </div>
                 ))}
             </section>
+            <DetailView subs={subs} />
         </section>
     )
 }
