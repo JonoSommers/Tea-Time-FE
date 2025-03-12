@@ -22,9 +22,13 @@ function Home() {
     return (
         <section>
             <header>
-                <button className="custData">Customer Data</button>
+                <Link to={'/customers'} className='subLink'>
+                    <button className="custData">Customer Data</button>
+                </Link>
                 <h1>TEA TIME</h1>
-                <button className="teaData">Tea Data</button>
+                <Link to={'/teas'} className='subLink'>
+                    <button className="teaData">Tea Data</button>
+                </Link>
             </header>
             <section className="subs">
                     {subs.map(sub => (
