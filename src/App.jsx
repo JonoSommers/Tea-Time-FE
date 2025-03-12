@@ -1,4 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
+import Home from './Home/Home.jsx'
+import DetailView from './DetailView/DetailView.jsx'
 import './App.css'
 
 function App() {
