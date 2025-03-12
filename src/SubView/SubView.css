@@ -1,0 +1,36 @@
+.subViewHeader {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subsView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.subViewContainer {
+    background-color: black;
+    color: white;
+    padding: 30px; 
+    margin: 15px; 
+    border-radius: 10px; 
+    width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.subViewContainer p {
+    margin: 10px 0;
+    font-size: 18px; 
+}
+
+.subViewHeader h1 {
+    margin-left: -1275px;
+}
+
+.subViewHeader button {
+    margin-left: -175px;
+}

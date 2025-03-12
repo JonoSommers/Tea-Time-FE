@@ -1,4 +1,4 @@
-import { useParams} from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import './SubView.css'
 
@@ -28,14 +28,17 @@ function SubView() {
     return (
         <section>
             <header className='subViewHeader'>
+                <Link to={`/${subId}`} className='subLink'>
+                    <button className='backButton'>Back To Subscription</button>
+                </Link>
                 <h1>Subscriber Data</h1>
             </header>
             <section className='subsView'>
                 {subData.attributes.customers.map(customer => (
-                    <div className='teaContainer'>
+                    <div className='subViewContainer'>
                         <p>Name: {customer.name} </p>
                         <p>Email: {customer.email}</p>
-                        <p>Status: {customer.status}</p>
+                        <p>Status: {customer.status ? 'Subscribed' : 'Not Subscribed'}</p>
                     </div>
                 ))}
             </section>
