@@ -30,11 +30,13 @@ function DetailView() {
                     <button className='backButton'>Back To Home</button>
                 </Link>
                 <h1>{sub.attributes.name}</h1>
-                <button className='subData'>Subscriber Data</button>
+                <Link to={`/${subId}/subscriber_data`} className='subLink'>
+                    <button className='subData'>Subscriber Data</button>
+                </Link>    
             </header>
             <section className='teas'>
                 {sub.attributes.teas.map(tea => (
-                    <div key={sub.id} className='teaContainer'>
+                    <div className='teaContainer'>
                         <h3>{tea.name}</h3>
                         <img src={sub.attributes.img} alt={`Glass of ${sub.attributes.name}`} />
                         <p>Description: {tea.description}</p>

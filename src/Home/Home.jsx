@@ -28,7 +28,7 @@ function Home() {
             </header>
             <section className="subs">
                     {subs.map(sub => (
-                            <div key={sub.id} className="subContainer">
+                            <div className="subContainer">
                                 <h3>{sub.attributes.name}</h3>
                                 <Link to={`${sub.id}`} className='subLink'>
                                     <img src={sub.attributes.img} alt={`Glass of ${sub.attributes.name}`} />
