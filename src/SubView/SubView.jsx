@@ -15,7 +15,6 @@ function SubView() {
         })
         .then(response => response.json())
         .then(data => {
-            console.log(data.data)
             setSubData(data.data)
         })
         .catch(error => console.log('message: ', error.message))
