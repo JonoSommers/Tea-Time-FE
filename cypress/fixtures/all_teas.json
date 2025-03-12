@@ -1,0 +1,274 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "tea",
+            "attributes": {
+                "name": "Sencha Green Tea",
+                "description": "A delicious type of tea.",
+                "temperature": 190,
+                "brew_time": 5
+            }
+        },
+        {
+            "id": "2",
+            "type": "tea",
+            "attributes": {
+                "name": "Jasmine Green Tea",
+                "description": "A delicious type of tea.",
+                "temperature": 200,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "3",
+            "type": "tea",
+            "attributes": {
+                "name": "Dragon Well (Longjing) Green Tea",
+                "description": "A delicious type of tea.",
+                "temperature": 186,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "4",
+            "type": "tea",
+            "attributes": {
+                "name": "Ceremonial Matcha",
+                "description": "A delicious type of tea.",
+                "temperature": 194,
+                "brew_time": 5
+            }
+        },
+        {
+            "id": "5",
+            "type": "tea",
+            "attributes": {
+                "name": "Culinary Matcha",
+                "description": "A delicious type of tea.",
+                "temperature": 199,
+                "brew_time": 5
+            }
+        },
+        {
+            "id": "6",
+            "type": "tea",
+            "attributes": {
+                "name": "Organic Matcha",
+                "description": "A delicious type of tea.",
+                "temperature": 192,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "7",
+            "type": "tea",
+            "attributes": {
+                "name": "Classic Earl Grey",
+                "description": "A delicious type of tea.",
+                "temperature": 194,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "8",
+            "type": "tea",
+            "attributes": {
+                "name": "Earl Grey with Lavender",
+                "description": "A delicious type of tea.",
+                "temperature": 188,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "9",
+            "type": "tea",
+            "attributes": {
+                "name": "Earl Grey with Bergamot",
+                "description": "A delicious type of tea.",
+                "temperature": 180,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "10",
+            "type": "tea",
+            "attributes": {
+                "name": "Tie Guan Yin (Iron Goddess)",
+                "description": "A delicious type of tea.",
+                "temperature": 194,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "11",
+            "type": "tea",
+            "attributes": {
+                "name": "Wuyi Rock Oolong",
+                "description": "A delicious type of tea.",
+                "temperature": 192,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "12",
+            "type": "tea",
+            "attributes": {
+                "name": "Milk Oolong",
+                "description": "A delicious type of tea.",
+                "temperature": 195,
+                "brew_time": 5
+            }
+        },
+        {
+            "id": "13",
+            "type": "tea",
+            "attributes": {
+                "name": "Darjeeling",
+                "description": "A delicious type of tea.",
+                "temperature": 193,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "14",
+            "type": "tea",
+            "attributes": {
+                "name": "Assam Black Tea",
+                "description": "A delicious type of tea.",
+                "temperature": 201,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "15",
+            "type": "tea",
+            "attributes": {
+                "name": "English Breakfast",
+                "description": "A delicious type of tea.",
+                "temperature": 194,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "16",
+            "type": "tea",
+            "attributes": {
+                "name": "Silver Needle White Tea",
+                "description": "A delicious type of tea.",
+                "temperature": 188,
+                "brew_time": 5
+            }
+        },
+        {
+            "id": "17",
+            "type": "tea",
+            "attributes": {
+                "name": "White Peony (Bai Mu Dan)",
+                "description": "A delicious type of tea.",
+                "temperature": 184,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "18",
+            "type": "tea",
+            "attributes": {
+                "name": "Ceylon White Tea",
+                "description": "A delicious type of tea.",
+                "temperature": 200,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "19",
+            "type": "tea",
+            "attributes": {
+                "name": "Raw (Sheng) Pu-erh",
+                "description": "A delicious type of tea.",
+                "temperature": 187,
+                "brew_time": 5
+            }
+        },
+        {
+            "id": "20",
+            "type": "tea",
+            "attributes": {
+                "name": "Aged (Shou) Pu-erh",
+                "description": "A delicious type of tea.",
+                "temperature": 187,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "21",
+            "type": "tea",
+            "attributes": {
+                "name": "Mini Tuo Cha Pu-erh",
+                "description": "A delicious type of tea.",
+                "temperature": 187,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "22",
+            "type": "tea",
+            "attributes": {
+                "name": "Chamomile",
+                "description": "A delicious type of tea.",
+                "temperature": 180,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "23",
+            "type": "tea",
+            "attributes": {
+                "name": "Peppermint",
+                "description": "A delicious type of tea.",
+                "temperature": 182,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "24",
+            "type": "tea",
+            "attributes": {
+                "name": "Rooibos",
+                "description": "A delicious type of tea.",
+                "temperature": 200,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "25",
+            "type": "tea",
+            "attributes": {
+                "name": "Masala Chai",
+                "description": "A delicious type of tea.",
+                "temperature": 181,
+                "brew_time": 4
+            }
+        },
+        {
+            "id": "26",
+            "type": "tea",
+            "attributes": {
+                "name": "Vanilla Chai",
+                "description": "A delicious type of tea.",
+                "temperature": 196,
+                "brew_time": 3
+            }
+        },
+        {
+            "id": "27",
+            "type": "tea",
+            "attributes": {
+                "name": "Spiced Chai",
+                "description": "A delicious type of tea.",
+                "temperature": 192,
+                "brew_time": 3
+            }
+        }
+    ]
+}

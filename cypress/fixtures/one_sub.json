@@ -1,0 +1,65 @@
+{
+    "data": {
+        "id": "1",
+        "type": "subscription",
+        "attributes": {
+            "name": "Matcha Tea",
+            "price": 26.0,
+            "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+            "img": "https://img.freepik.com/premium-photo/hot-green-tea-matcha-latte-with-powdered-green-tea-tea-leaves-isolated-white-background_319514-1999.jpg",
+            "users_subscribed": 4,
+            "customers": [
+                {
+                    "name": "Augustina McCullough",
+                    "email": "gale.waelchi@kertzmann-harvey.example",
+                    "status": true
+                },
+                {
+                    "name": "Georgeanna Stanton",
+                    "email": "jordan@rath-hammes.test",
+                    "status": true
+                },
+                {
+                    "name": "Gwenn Wuckert",
+                    "email": "burton@shanahan-halvorson.example",
+                    "status": false
+                },
+                {
+                    "name": "Silas Klein",
+                    "email": "lauretta_runte@nienow-schoen.example",
+                    "status": false
+                },
+                {
+                    "name": "Floyd Johnson",
+                    "email": "gerald_ziemann@shields.test",
+                    "status": true
+                },
+                {
+                    "name": "Keneth Roberts",
+                    "email": "lynelle@towne.test",
+                    "status": true
+                }
+            ],
+            "teas": [
+                {
+                    "name": "Ceremonial Matcha",
+                    "description": "A delicious type of tea.",
+                    "temperature": 194,
+                    "brew_time": 5
+                },
+                {
+                    "name": "Culinary Matcha",
+                    "description": "A delicious type of tea.",
+                    "temperature": 199,
+                    "brew_time": 5
+                },
+                {
+                    "name": "Organic Matcha",
+                    "description": "A delicious type of tea.",
+                    "temperature": 192,
+                    "brew_time": 3
+                }
+            ]
+        }
+    }
+}
