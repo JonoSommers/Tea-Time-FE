@@ -1,6 +1,6 @@
+import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import './Home.css'
-import DetailView from '../DetailView/DetailView'
 
 function Home() {
     const [subs, setSubs] = useState([])
@@ -27,14 +27,15 @@ function Home() {
                 <button className="teaData">Tea Data</button>
             </header>
             <section className="subs">
-                {subs.map(sub => (
-                    <div key={sub.id} className="subContainer">
-                        <h3>{sub.attributes.name}</h3>
-                        <img src={sub.attributes.img} alt={`Glass of ${sub.attributes.name}`} />
-                    </div>
-                ))}
+                    {subs.map(sub => (
+                            <div key={sub.id} className="subContainer">
+                                <h3>{sub.attributes.name}</h3>
+                                <Link to={`${sub.id}`} className='subLink'>
+                                    <img src={sub.attributes.img} alt={`Glass of ${sub.attributes.name}`} />
+                                </Link>
+                            </div>
+                    ))}
             </section>
-            <DetailView subs={subs} />
         </section>
     )
 }

@@ -9,7 +9,7 @@ function App() {
     <section className='Routing'>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/:subName' element={<DetailView />} />
+        <Route path='/:subId' element={<DetailView />} />
       </Routes>
     </section>
   )
