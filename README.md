@@ -35,7 +35,8 @@ Tea Time allows workers to view customer data, subscription data, tea data with 
 # Screenshots:
 
 - Home Page:
-![home](![Screenshot 2025-03-12 at 8 02 07 PM](https://github.com/user-attachments/assets/f5f33f26-413c-434c-bf92-ffe929c82088)
+![home]
+(![Screenshot 2025-03-12 at 8 02 07 PM](https://github.com/user-attachments/assets/f5f33f26-413c-434c-bf92-ffe929c82088)
 
 - Home Page
 ![customer data](https://github.com/user-attachments/assets/a31dbd5f-c3a0-4755-bb97-ee75e80cbb63)
