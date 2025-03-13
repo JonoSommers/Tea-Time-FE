@@ -4,15 +4,9 @@ describe('Home', () => {
             statusCode: 200,
             fixture: 'all_subs.json'
         }).as('getAllSubs')
-
-        // cy.intercept('GET', 'http://localhost:3000/api/v1/subscriptions/1', {
-        //     statusCode: 200,
-        //     fixture: 'one_sub.json'
-        // }).as('getOneSub')
         
         cy.visit('http://localhost:5173')
         cy.wait('@getAllSubs')
-        // cy.wait('@getOneSub')
     });
 
     it('is the correct URL', () => {
