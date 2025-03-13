@@ -15,13 +15,34 @@ function SubView() {
         })
         .then(response => response.json())
         .then(data => {
-            setSubData(data.data)
+            setSubData(data.data);
         })
         .catch(error => console.log('message: ', error.message))
-    }, [subId])
+    }, [subData])
+
+    function updateStatus(joinsId, customerId) {
+        fetch(`http://localhost:3000/api/v1/subscriptions/${subId}/subscription_customers/${joinsId}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body:JSON.stringify({
+                customer_id: customerId
+            })
+        })
+        .then(response => response.json())
+        .catch(error => console.error('message: ', error.message))
+    }
 
     if (!subData) {
         return <div>Loading...</div>
+    }
+
+    function findRecord(customerId) {
+        const record = subData.attributes.joins_records.find(record => 
+            record.customer_id === customerId
+        )
+        return record ? record.id : null
     }
 
     return (
@@ -35,7 +56,7 @@ function SubView() {
             <section className='subsView'>
                 {subData.attributes.customers.map(customer => (
                     <div className='subViewContainer'>
-                        <button>
+                        <button onClick={() => updateStatus(findRecord(customer.id), customer.id)}>
                             {customer.status ? 'Unsubscribe' : 'Subscribe'}
                         </button>
                         <p>Name: {customer.name} </p>
