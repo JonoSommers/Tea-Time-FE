@@ -1,0 +1,103 @@
+{
+    "data": [
+        {
+            "id": "3",
+            "type": "subscription",
+            "attributes": {
+                "name": "Oolong Tea",
+                "price": 48.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://artfultea.com/cdn/shop/files/O-JapaneseOolong_cup_3738.jpg?v=1683605836&width=713",
+                "users_subscribed": 1
+            }
+        },
+        {
+            "id": "4",
+            "type": "subscription",
+            "attributes": {
+                "name": "Black Tea",
+                "price": 39.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://media.istockphoto.com/id/177555555/photo/black-tea-in-glass-cup.jpg?s=612x612&w=0&k=20&c=2Flt5yTypvLnfe0ZLvA6dWI3gd2RnNpTMKUBQ1gAAgM=",
+                "users_subscribed": 1
+            }
+        },
+        {
+            "id": "5",
+            "type": "subscription",
+            "attributes": {
+                "name": "White Tea",
+                "price": 37.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://media.istockphoto.com/id/1146980522/photo/delicious-green-tea-in-beautiful-glass-bowl-on-a-table.jpg?s=612x612&w=0&k=20&c=Pg4B9X_kq_CHY7jne34aa_Sm3W4lG3K9RM-jDATxQiw=",
+                "users_subscribed": 2
+            }
+        },
+        {
+            "id": "6",
+            "type": "subscription",
+            "attributes": {
+                "name": "Pu-erh Tea",
+                "price": 39.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://cdn11.bigcommerce.com/s-y3f62xrw45/images/stencil/2048x2048/products/283/110/59._Pu-Erh_Tuo_Cha_Chinese_Black_Tea_1oz_2__92688.1574066145.jpg?c=1",
+                "users_subscribed": 3
+            }
+        },
+        {
+            "id": "7",
+            "type": "subscription",
+            "attributes": {
+                "name": "Herbal Tea",
+                "price": 38.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://img.freepik.com/premium-photo/herbal-tea-with-chamomile-flowers-white-background_501761-1872.jpg",
+                "users_subscribed": 3
+            }
+        },
+        {
+            "id": "8",
+            "type": "subscription",
+            "attributes": {
+                "name": "Chai Tea",
+                "price": 42.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://static.vecteezy.com/system/resources/thumbnails/026/553/492/small_2x/spiced-chai-tea-in-a-white-cup-isolated-on-white-background-free-photo.jpg",
+                "users_subscribed": 2
+            }
+        },
+        {
+            "id": "9",
+            "type": "subscription",
+            "attributes": {
+                "name": "Green Tea",
+                "price": 26.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://img.freepik.com/premium-photo/cup-green-tea-with-leaves-white-background_787273-2374.jpg",
+                "users_subscribed": 5
+            }
+        },
+        {
+            "id": "2",
+            "type": "subscription",
+            "attributes": {
+                "name": "Earl Grey",
+                "price": 49.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://cdn11.bigcommerce.com/s-sl43adirvd/images/stencil/1920w/products/1790/1388/earl-grey-tea__70158__86077.1729396919.jpg?c=1",
+                "users_subscribed": 2
+            }
+        },
+        {
+            "id": "1",
+            "type": "subscription",
+            "attributes": {
+                "name": "Matcha Tea",
+                "price": 26.0,
+                "description": "A 3 pack variety of Black Teas delivered directly to your door every month.",
+                "img": "https://img.freepik.com/premium-photo/hot-green-tea-matcha-latte-with-powdered-green-tea-tea-leaves-isolated-white-background_319514-1999.jpg",
+                "users_subscribed": 4
+            }
+        }
+    ]
+}

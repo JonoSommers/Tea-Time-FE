@@ -6,7 +6,7 @@
 .subsView {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
     gap: 20px;
@@ -16,7 +16,7 @@
     background-color: black;
     color: white;
     padding: 30px; 
-    margin: 15px; 
+    margin: 15px;
     border-radius: 10px; 
     width: 500px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 

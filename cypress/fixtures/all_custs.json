@@ -1,0 +1,328 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Georgeanna",
+                "last_name": "Stanton",
+                "email": "jordan@rath-hammes.test",
+                "address": "48411 Pacocha Mount",
+                "subscriptions": [
+                    {
+                        "id": 1,
+                        "name": "Matcha Tea"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Earl Grey"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Augustina",
+                "last_name": "McCullough",
+                "email": "gale.waelchi@kertzmann-harvey.example",
+                "address": "48566 Kate Inlet",
+                "subscriptions": [
+                    {
+                        "id": 1,
+                        "name": "Matcha Tea"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Chai Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Darcie",
+                "last_name": "Metz",
+                "email": "myrtis.berge@lebsack.test",
+                "address": "2264 Herb Falls",
+                "subscriptions": []
+            }
+        },
+        {
+            "id": "4",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Jaleesa",
+                "last_name": "Bruen",
+                "email": "owen@brakus-kohler.example",
+                "address": "103 Zemlak Trace",
+                "subscriptions": []
+            }
+        },
+        {
+            "id": "5",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Gwenn",
+                "last_name": "Wuckert",
+                "email": "burton@shanahan-halvorson.example",
+                "address": "2933 Yong Radial",
+                "subscriptions": []
+            }
+        },
+        {
+            "id": "6",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Floyd",
+                "last_name": "Johnson",
+                "email": "gerald_ziemann@shields.test",
+                "address": "40347 Kevin Circles",
+                "subscriptions": [
+                    {
+                        "id": 9,
+                        "name": "Green Tea"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pu-erh Tea"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Green Tea"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Matcha Tea"
+                    },
+                    {
+                        "id": 5,
+                        "name": "White Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "7",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Robt",
+                "last_name": "Beer",
+                "email": "leigh@medhurst-little.example",
+                "address": "8629 O'Hara Ville",
+                "subscriptions": [
+                    {
+                        "id": 7,
+                        "name": "Herbal Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "8",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Darcie",
+                "last_name": "Miller",
+                "email": "shaquita@dach.example",
+                "address": "896 Anderson Glen",
+                "subscriptions": [
+                    {
+                        "id": 2,
+                        "name": "Earl Grey"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Pu-erh Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "9",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Keneth",
+                "last_name": "Roberts",
+                "email": "lynelle@towne.test",
+                "address": "947 Arla Club",
+                "subscriptions": [
+                    {
+                        "id": 1,
+                        "name": "Matcha Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "10",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Kymberly",
+                "last_name": "McKenzie",
+                "email": "maxwell.mayert@block.example",
+                "address": "15187 Albertina Manors",
+                "subscriptions": [
+                    {
+                        "id": 9,
+                        "name": "Green Tea"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Black Tea"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Green Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "11",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Noe",
+                "last_name": "Franecki",
+                "email": "truman.gusikowski@huels.test",
+                "address": "71527 Zulauf Island",
+                "subscriptions": []
+            }
+        },
+        {
+            "id": "12",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Megan",
+                "last_name": "Pacocha",
+                "email": "tammera.rolfson@zulauf.test",
+                "address": "677 Oberbrunner Club",
+                "subscriptions": []
+            }
+        },
+        {
+            "id": "13",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Silas",
+                "last_name": "Klein",
+                "email": "lauretta_runte@nienow-schoen.example",
+                "address": "8940 Allegra Mission",
+                "subscriptions": [
+                    {
+                        "id": 9,
+                        "name": "Green Tea"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Oolong Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "14",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Mattie",
+                "last_name": "Pouros",
+                "email": "cary@rice.example",
+                "address": "41396 MacGyver Court",
+                "subscriptions": [
+                    {
+                        "id": 8,
+                        "name": "Chai Tea"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Herbal Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "15",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Jefferson",
+                "last_name": "Douglas",
+                "email": "hosea_thiel@bernhard-cremin.test",
+                "address": "926 Regenia Turnpike",
+                "subscriptions": [
+                    {
+                        "id": 5,
+                        "name": "White Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "16",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Chi",
+                "last_name": "Mosciski",
+                "email": "leon@koss-zemlak.test",
+                "address": "57312 Reita Mount",
+                "subscriptions": []
+            }
+        },
+        {
+            "id": "17",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Rupert",
+                "last_name": "Muller",
+                "email": "tiffanie_waelchi@gleason-jakubowski.test",
+                "address": "6417 Orlando Key",
+                "subscriptions": [
+                    {
+                        "id": 7,
+                        "name": "Herbal Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "18",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Bryant",
+                "last_name": "Mertz",
+                "email": "leia@murazik.example",
+                "address": "5252 Rohan Ridge",
+                "subscriptions": []
+            }
+        },
+        {
+            "id": "19",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Joaquina",
+                "last_name": "Wunsch",
+                "email": "denny.wolf@lesch.example",
+                "address": "3292 Donnelly Mission",
+                "subscriptions": [
+                    {
+                        "id": 6,
+                        "name": "Pu-erh Tea"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "20",
+            "type": "customer",
+            "attributes": {
+                "first_name": "Louetta",
+                "last_name": "Klein",
+                "email": "abe_glover@yost.example",
+                "address": "433 Ceola Fork",
+                "subscriptions": []
+            }
+        }
+    ]
+}

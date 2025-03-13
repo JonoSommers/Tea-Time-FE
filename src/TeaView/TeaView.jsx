@@ -36,8 +36,8 @@ function TeaView() {
                     <div className='teaViewContainer'>
                         <p>Name: {tea.attributes.name}</p>
                         <p>Description: {tea.attributes.description}</p>
-                        <p>Reccomended Temperature: {tea.attributes.temperature}°F</p>
-                        <p>Reccomended Brew Time: {tea.attributes.brew_time}min</p>
+                        <p>Recommended Temperature: {tea.attributes.temperature}°F</p>
+                        <p>Recommended Brew Time: {tea.attributes.brew_time}min</p>
                     </div>
                 ))}
             </section>

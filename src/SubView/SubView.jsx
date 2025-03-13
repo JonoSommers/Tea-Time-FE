@@ -35,6 +35,9 @@ function SubView() {
             <section className='subsView'>
                 {subData.attributes.customers.map(customer => (
                     <div className='subViewContainer'>
+                        <button>
+                            {customer.status ? 'Unsubscribe' : 'Subscribe'}
+                        </button>
                         <p>Name: {customer.name} </p>
                         <p>Email: {customer.email}</p>
                         <p>Status: {customer.status ? 'Subscribed' : 'Not Subscribed'}</p>
