@@ -43,6 +43,14 @@ describe('Customer Data View', () => {
         cy.get(':nth-child(27) > :nth-child(4)').should('include.text', 'Recommended Brew Time')
     })
 
+    it('allows workeres to search through teas by name', () => {
+        cy.get('.searchBar').type('Green')
+        cy.get('.teaView').children().should('have.length', 3)
+        cy.get('.teaView > :nth-child(1) > :nth-child(1)').should('include.text', 'Green')
+        cy.get('.teaView > :nth-child(2) > :nth-child(1)').should('include.text', 'Green')
+        cy.get(':nth-child(3) > :nth-child(1)').should('include.text', 'Green')
+    })
+
     it('displays back to home button on page load, and bring you back to home', () => {
         cy.get('.backButton').should('have.text', 'Back To Home')
         cy.get('.backButton').click({ force: true })

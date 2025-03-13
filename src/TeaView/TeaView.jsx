@@ -4,6 +4,7 @@ import './TeaView.css'
 
 function TeaView() {
     const [teaData, setTeaData] = useState(null)
+    const [teaSearch, setTeaSearch] = useState("")
     const fetchTeas = 'http://localhost:3000/api/v1/teas'
 
     useEffect(() => {
@@ -23,6 +24,10 @@ function TeaView() {
         return <div>Loading...</div>
     }
 
+    const teas = teaData.filter((tea) => (
+		tea.attributes.name.toLowerCase().includes(teaSearch.toLowerCase())
+	))
+
     return (
         <section>
             <header className='TeaViewHeader'>
@@ -30,9 +35,16 @@ function TeaView() {
                     <button className='backButton'>Back To Home</button>
                 </Link>
                 <h1>Tea Data</h1>
+                <input
+                    className="searchBar"
+                    type="text"
+                    placeholder="Search Tea Name..."
+                    value={teaSearch}
+                    onChange={(event) => setTeaSearch(event.target.value)}
+                />
             </header>
             <section className='teaView'>
-                {teaData.map(tea => (
+                {teas.map(tea => (
                     <div className='teaViewContainer'>
                         <p>Name: {tea.attributes.name}</p>
                         <p>Description: {tea.attributes.description}</p>

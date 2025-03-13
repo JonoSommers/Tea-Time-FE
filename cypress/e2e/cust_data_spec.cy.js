@@ -47,6 +47,12 @@ describe('Customer Data View', () => {
         cy.get('.custView > :nth-child(20) > :nth-child(5)').should('include.text', 'Subscription(s)')
     })
 
+    it('allows workeres to search through customers by email', () => {
+        cy.get('.searchBar').type('jordan')
+        cy.get('.custView').children().should('have.length', 1)
+        cy.get('.custViewContainer > :nth-child(3)').should('include.text', 'jordan')
+    })
+
     it('displays back to home button on page load, and bring you back to home', () => {
         cy.get('.backButton').should('have.text', 'Back To Home')
         cy.get('.backButton').click({ force: true })
