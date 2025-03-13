@@ -11,7 +11,7 @@ describe('Customer Data View', () => {
     })
 
     it('is the correct URL', () => {
-        cy.url().should('contain', 'http://localhost:5173')
+        cy.url().should('contain', 'http://localhost:5173/customers')
     })
 
     it('displays Customer data title on page load', () => {
@@ -45,5 +45,11 @@ describe('Customer Data View', () => {
         cy.get('.custView > :nth-child(20) > :nth-child(4)').should('include.text', 'Address')
         cy.get('.custView > :nth-child(20) > :nth-child(5)').should('be.visible')
         cy.get('.custView > :nth-child(20) > :nth-child(5)').should('include.text', 'Subscription(s)')
+    })
+
+    it('displays back to home button on page load, and bring you back to home', () => {
+        cy.get('.backButton').should('have.text', 'Back To Home')
+        cy.get('.backButton').click({ force: true })
+        cy.url().should('contain', 'http://localhost:5173')
     })
 })
