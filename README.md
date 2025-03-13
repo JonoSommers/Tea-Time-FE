@@ -35,19 +35,19 @@ Tea Time allows workers to view customer data, subscription data, tea data with 
 # Screenshots:
 
 ### Home Page:
-(![Screenshot 2025-03-12 at 8 02 07 PM](https://github.com/user-attachments/assets/f5f33f26-413c-434c-bf92-ffe929c82088)
+![Screenshot 2025-03-12 at 8 02 07 PM](https://github.com/user-attachments/assets/f5f33f26-413c-434c-bf92-ffe929c82088)
 
-- Home Page
-![customer data](https://github.com/user-attachments/assets/a31dbd5f-c3a0-4755-bb97-ee75e80cbb63)
+### Customer View
+![Screenshot 2025-03-12 at 8 06 12 PM](https://github.com/user-attachments/assets/8c3d0248-89bf-4f96-bf26-a7edf5748254)
 
-- Pokeman Search Page
-![tea data](https://github.com/user-attachments/assets/203d8cd9-75ad-42a7-8afa-2f0fcf42d4ce)
+### Tea View
+![Screenshot 2025-03-12 at 8 06 45 PM](https://github.com/user-attachments/assets/043512e0-ab9e-4c57-98b2-025c8996dd8f)
 
-- Card Detail
-![detailview](https://github.com/user-attachments/assets/2766eacd-9dcc-4bba-93b8-3b6005dab5e5)
+### Subscription Details
+![Screenshot 2025-03-12 at 8 07 11 PM](https://github.com/user-attachments/assets/a0d9966e-a78c-45bd-90ca-32cc52bd709c)
 
-- Binder View
-![susbcription customers](https://github.com/user-attachments/assets/a17588a5-3bae-46b0-9b60-8adbaaa36099)
+### Subscription Customers
+![Screenshot 2025-03-12 at 8 07 17 PM](https://github.com/user-attachments/assets/5cc0dad8-cac0-40f8-b9cc-8b6bfd57c98e)
 
 
 # Authors and contributors
