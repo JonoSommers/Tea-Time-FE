@@ -4,6 +4,7 @@ import './SubView.css'
 
 function SubView() {
     const [subData, setSubData] = useState(null)
+    const [update, setUpdate] = useState(null)
     const subId = useParams().subId
     const fetchSub = `http://localhost:3000/api/v1/subscriptions/${subId}`
 
@@ -18,7 +19,7 @@ function SubView() {
             setSubData(data.data);
         })
         .catch(error => console.log('message: ', error.message))
-    }, [subData])
+    }, [update])
 
     function updateStatus(joinsId, customerId) {
         fetch(`http://localhost:3000/api/v1/subscriptions/${subId}/subscription_customers/${joinsId}`, {
@@ -31,6 +32,9 @@ function SubView() {
             })
         })
         .then(response => response.json())
+        .then(data => {
+            setUpdate([data.data])
+        })
         .catch(error => console.error('message: ', error.message))
     }
 
@@ -55,7 +59,7 @@ function SubView() {
             </header>
             <section className='subsView'>
                 {subData.attributes.customers.map(customer => (
-                    <div className='subViewContainer'>
+                    <div key={customer.id} className='subViewContainer'>
                         <button onClick={() => updateStatus(findRecord(customer.id), customer.id)}>
                             {customer.status ? 'Unsubscribe' : 'Subscribe'}
                         </button>

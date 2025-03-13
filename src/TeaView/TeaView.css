@@ -29,8 +29,20 @@
 
 .TeaViewHeader h1 {
     margin-left: -1275px;
+    align-items: center;
 }
 
 .TeaViewHeader button {
     margin-left: -175px;
+}
+
+.searchBar {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: -250px;
 }

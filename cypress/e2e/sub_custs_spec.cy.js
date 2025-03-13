@@ -48,6 +48,24 @@ describe('Home', () => {
         cy.get(':nth-child(3) > button').should('include.text', 'Subscribe')
     })
 
+    it('updates subscription status when you click the subscribe/unsubscribe button' , () => {
+        cy.intercept('PATCH', '/api/v1/subscriptions/1/subscription_customers/52', {
+            statusCode: 200,
+            fixture: 'update_status.json'
+        }).as('updateStatus');
+
+        cy.intercept('GET', 'http://localhost:3000/api/v1/subscriptions/1', {
+            statusCode: 200,
+            fixture: 'updated_sub.json'
+        }).as('getNewSub')
+
+        cy.get('.subsView > :nth-child(1) > :nth-child(4)').should('have.text', 'Status: Subscribed')
+        cy.get('.subsView > :nth-child(1) > button').click()
+        cy.wait('@updateStatus')
+        cy.wait('@getNewSub')
+        cy.get('.subsView > :nth-child(1) > :nth-child(4)').should('have.text', 'Status: Not Subscribed')
+    })
+
     it('displays back to home button on page load, and bring you back to Subscription view', () => {
         cy.get('.backButton').click({ force: true })
         cy.url().should('contain', 'http://localhost:5173/1')
