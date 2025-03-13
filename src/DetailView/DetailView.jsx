@@ -40,8 +40,8 @@ function DetailView() {
                         <h3>{tea.name}</h3>
                         <img src={sub.attributes.img} alt={`Glass of ${sub.attributes.name}`} />
                         <p>Description: {tea.description}</p>
-                        <p>Reccomennded Temperatire: {tea.temperature}°F</p>
-                        <p>Reccomennded Brew Time: {tea.brew_time}min</p>
+                        <p>Recommended Temperature: {tea.temperature}°F</p>
+                        <p>Recommended Brew Time: {tea.brew_time}min</p>
                     </div>
                 ))}
             </section>
